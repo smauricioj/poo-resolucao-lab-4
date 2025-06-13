@@ -1,31 +1,18 @@
 package ifsc.poo.geom;
 
 public class Circulo extends ComArea{
-    // Estáticos
-    private static final Ponto CENTRO_DEFAULT;
-    private static final double RAIO_DEFAULT;
-
-    static {
-        CENTRO_DEFAULT = new Ponto(0, 0);
-        RAIO_DEFAULT = 1;
-    }
-
     // Atributos
     private Ponto centro;
     private double raio;
 
     // Construtores
-    public Circulo() {
-        this(CENTRO_DEFAULT, RAIO_DEFAULT);
-    }
-
     public Circulo(double centro_x, double centro_y, double raio){
         this(new Ponto(centro_x, centro_y), raio);
     }
 
     public Circulo(Ponto centro, double raio) {
         this.centro = centro;
-        this.raio = (raio > 0) ? raio : RAIO_DEFAULT;
+        this.raio = (raio > 0) ? raio : 1;
     }
 
     // Getters e Setters
