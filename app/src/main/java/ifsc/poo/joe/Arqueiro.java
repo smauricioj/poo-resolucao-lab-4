@@ -1,18 +1,8 @@
 package ifsc.poo.joe;
 
 public class Arqueiro extends Personagem{
-    private static final int MAX_VIDA;
-    private static final int DEFAULT_ATAQUE;
-    private static final double DEFAULT_VELOCIDADE;
-
-    static {
-        MAX_VIDA = 35;
-        DEFAULT_ATAQUE = 2;
-        DEFAULT_VELOCIDADE = 1.0;
-    }
-
     public Arqueiro() {
-        super(MAX_VIDA, DEFAULT_ATAQUE, DEFAULT_VELOCIDADE);
+        super(35, 2, 1.0);
     }
 
     @Override

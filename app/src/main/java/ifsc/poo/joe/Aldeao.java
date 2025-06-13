@@ -1,18 +1,8 @@
 package ifsc.poo.joe;
 
 public class Aldeao extends Personagem{
-    private static final int MAX_VIDA;
-    private static final int DEFAULT_ATAQUE;
-    private static final double DEFAULT_VELOCIDADE;
-
-    static {
-        MAX_VIDA = 25;
-        DEFAULT_ATAQUE = 1;
-        DEFAULT_VELOCIDADE = 0.8;
-    }
-
     public Aldeao() {
-        super(MAX_VIDA, DEFAULT_ATAQUE, DEFAULT_VELOCIDADE);
+        super(25, 1, 0.8);
     }
 
     @Override
