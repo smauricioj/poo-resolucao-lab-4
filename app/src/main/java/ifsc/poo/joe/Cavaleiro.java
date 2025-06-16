@@ -1,18 +1,8 @@
 package ifsc.poo.joe;
 
 public class Cavaleiro extends Personagem{
-    private static final int MAX_VIDA;
-    private static final int DEFAULT_ATAQUE;
-    private static final double DEFAULT_VELOCIDADE;
-
-    static {
-        MAX_VIDA = 50;
-        DEFAULT_ATAQUE = 3;
-        DEFAULT_VELOCIDADE = 2.0;
-    }
-
     public Cavaleiro() {
-        super(MAX_VIDA, DEFAULT_ATAQUE, DEFAULT_VELOCIDADE);
+        super(50, 3, 2.0);
     }
 
     @Override

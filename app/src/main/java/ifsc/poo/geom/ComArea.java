@@ -3,19 +3,12 @@ package ifsc.poo.geom;
 import java.awt.Color;
 
 public class ComArea extends Figura {
-    // Estáticos
-    private static final Color COR_DO_PREENCHIMENTO_DEFAULT;
-
-    static {
-        COR_DO_PREENCHIMENTO_DEFAULT = Color.GRAY;
-    }
-
     // Atributos
     protected Color corDoPreenchimento;
 
     // Construtor
     public ComArea() {
-        corDoPreenchimento = COR_DO_PREENCHIMENTO_DEFAULT;
+        corDoPreenchimento = Color.GRAY;
     }
 
     // Getters e Setters

@@ -3,8 +3,8 @@
  */
 package ifsc.poo;
 
-import ifsc.poo.joe.*;
 import ifsc.poo.geom.*;
+import ifsc.poo.joe.*;
 
 public class App {
     public static void javaOfEmpires() {
@@ -28,6 +28,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-//        javaOfEmpires();
+        javaOfEmpires();
     }
 }
